@@ -1,0 +1,23 @@
+# Byte-compiled / caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Django
+db.sqlite3
+*.log
+/staticfiles
+media/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
