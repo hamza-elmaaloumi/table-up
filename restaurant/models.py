@@ -3,6 +3,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 # Create your models here.
+
 class restaurant(models.Model):
     id_restaurant = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100)
